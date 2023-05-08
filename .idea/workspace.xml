@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dac5f85-d6a1-49e7-a455-a6270c4f10e5" name="Changes" comment="" />
+    <list default="true" id="7dac5f85-d6a1-49e7-a455-a6270c4f10e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/.idea/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/controllers/PostController.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/controllers/PostController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/controllers/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/models/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/color-support.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/color-support.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/mime.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/mime.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/mkdirp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/mkdirp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/node-pre-gyp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/node-pre-gyp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/nodemon.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/nodemon.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/nodetouch.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/nodetouch.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/nopt.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/nopt.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/rimraf.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/rimraf.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/@mapbox/node-pre-gyp/node_modules/.bin/nopt.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/@mapbox/node-pre-gyp/node_modules/.bin/nopt.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/@mapbox/node-pre-gyp/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/@mapbox/node-pre-gyp/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/@types/node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/@types/webidl-conversions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/@types/webidl-conversions/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/@types/whatwg-url/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/@types/whatwg-url/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/bcrypt/appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/bcrypt/appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/jsonwebtoken/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/jsonwebtoken/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/make-dir/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/make-dir/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/node-fetch/node_modules/whatwg-url/lib/url-state-machine.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/node-fetch/node_modules/whatwg-url/lib/url-state-machine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/sift/es5m/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/sift/es5m/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/sift/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/sift/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/sift/sift.csp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/sift/sift.csp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/simple-update-notifier/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/simple-update-notifier/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/simple-update-notifier/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/simple-update-notifier/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/validator/es/lib/isVAT.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/validator/es/lib/isVAT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/validator/lib/isVAT.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/validator/lib/isVAT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/node_modules/validator/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/node_modules/validator/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/utils/checkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/utils/checkAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsRoom/validations.js" beforeDir="false" afterPath="$PROJECT_DIR$/LabsRoom/validations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +68,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Мой компьютер/OneDrive/Документы/GitHub/LabsRoom-12-Tango/LabsRoom/validations&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Мой компьютер/Downloads&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -48,7 +93,10 @@
       <workItem from="1682508468448" duration="1876000" />
       <workItem from="1682927117693" duration="9713000" />
       <workItem from="1683043779845" duration="7172000" />
-      <workItem from="1683392916027" duration="6572000" />
+      <workItem from="1683392916027" duration="10054000" />
+      <workItem from="1683462996661" duration="939000" />
+      <workItem from="1683472880644" duration="5564000" />
+      <workItem from="1683525577868" duration="3070000" />
     </task>
     <servers />
   </component>

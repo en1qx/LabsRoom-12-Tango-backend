@@ -3,9 +3,10 @@ import mongoose from 'mongoose';
 import {registerValidation, loginValidation, postCreateValidation} from './validations.js';
 import checkAuth from "./utils/checkAuth.js";
 import {register, login, getMe} from "./controllers/UserController.js";
-import {create, getAll, getOne, remove, update} from "./controllers/PostController.js";
+import {create, getAll, getOne, remove, update, getLastTags} from "./controllers/PostController.js";
 import multer from "multer";
 import {check} from "express-validator";
+import cors from 'cors';
 
 mongoose
     .connect('mongodb+srv://admin:wwwwww@cluster0.8gqjqzr.mongodb.net/social?retryWrites=true&w=majority')
@@ -28,12 +29,18 @@ const storage = multer.diskStorage({
 const upload = multer({ storage })
 
 app.use(express.json());
+app.use(cors());
 app.use('/uploads', express.static('uploads'));
+
 app.post("/auth/login", loginValidation, login);
 app.post("/auth/register", registerValidation, register);
+
+app.get('/tags', getLastTags)
 app.get('auth/me', checkAuth, getMe);
 app.get('/posts', getAll);
+app.get('/posts/tags', getLastTags);
 app.get('/posts/:id', getOne);
+
 app.post('/posts', checkAuth, postCreateValidation, create);
 app.delete('/posts/:id', checkAuth, remove);
 app.patch('/posts/:id', checkAuth, update);
