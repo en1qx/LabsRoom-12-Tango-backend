@@ -5,7 +5,6 @@ import checkAuth from "./utils/checkAuth.js";
 import {register, login, getMe} from "./controllers/UserController.js";
 import {create, getAll, getOne, remove, update, getLastTags} from "./controllers/PostController.js";
 import multer from "multer";
-import {check} from "express-validator";
 import cors from 'cors';
 
 mongoose
