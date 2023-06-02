@@ -4,6 +4,7 @@ import {registerValidation, loginValidation, postCreateValidation} from './valid
 import checkAuth from "./utils/checkAuth.js";
 import {register, login, getMe} from "./controllers/UserController.js";
 import {create, getAll, getOne, remove, update, getLastTags} from "./controllers/PostController.js";
+import {getComments, createComment} from "./controllers/CommentController.js";
 import multer from "multer";
 import cors from 'cors';
 
@@ -48,6 +49,10 @@ app.post('/upload', checkAuth, upload.single('image'), (req, res) => {
         url: `/uploads/${req.file.originalname}`,
     });
 });
+
+// Route for comments
+app.get('/posts/:postId/comments', getComments);
+app.post('/posts/:postId/comments', checkAuth, createComment);
 
 app.listen(4444, (err)=>{
     if (err) {

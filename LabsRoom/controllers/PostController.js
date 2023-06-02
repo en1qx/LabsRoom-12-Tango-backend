@@ -1,5 +1,4 @@
 import PostModel from '../models/Post.js';
-import Post from '../models/Post.js';
 
 export const getLastTags = async (req, res) => {
     try {
@@ -16,10 +15,14 @@ export const getLastTags = async (req, res) => {
     }
 }
 
-
+// Get all posts with filter by tags
 export const getAll = async (req, res) => {
     try {
-        const posts = await PostModel.find().populate('user').exec();
+        const tags = req.query.tags?.split(',');
+
+        const filter = tags ? { tags: { $in: tags } } : {};
+
+        const posts = await PostModel.find(filter).populate('user').exec();
 
         res.json(posts);
     } catch (err) {
